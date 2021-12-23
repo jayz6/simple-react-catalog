@@ -8,7 +8,9 @@ const Book = (props) => {
       <h1 className="h1">{title}</h1>
       <h4 className="h4">{author}</h4>
       <button type="button" className="button">
-        <a href={sub}>BUY</a>
+        <a href={sub} target="_blank`" rel="noreferrer">
+          BUY
+        </a>
       </button>
     </article>
   );
